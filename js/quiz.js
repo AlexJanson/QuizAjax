@@ -14,11 +14,11 @@ let quiz = [
         question: "200 - 100 * 2 = ",
         answers:
         [
-            {answer: "200", feedback: true},
+            {answer: "200", feedback: false},
             {answer: "100", feedback: false},
             {answer: "2", feedback: false},
-            {answer: "0", feedback: false},
+            {answer: "0", feedback: true},
         ],
-        correct: "200"
+        correct: "0"
     }
 ]
