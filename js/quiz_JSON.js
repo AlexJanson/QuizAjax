@@ -1,64 +1,64 @@
 [{
-    "question": "Wie ontwierp de Eiffeltoren?",
+    "question": "Hoe maak je een for loop in javascript?",
     "answers": [{
-            "answer": "Eiffel",
+            "answer": "for(int i = 0; i < 10; i++)",
+            "feedback": false
+        },
+        {
+            "answer": "for(let i = 0; i < 10; i++)",
             "feedback": true
         },
         {
-            "answer": "Berlage",
+            "answer": "for x in range(0,10)",
             "feedback": false
         },
         {
-            "answer": "Edison",
-            "feedback": false
-        },
-        {
-            "answer": "James Watt",
+            "answer": "for($i = 0; $i < 10; $i++)",
             "feedback": false
         }
     ],
-    "correct": "Eiffel"
+    "correct": "for(int i = 0; i < 10; i++)"
 },
 {
-    "question": "In welke kleuren speelt blauw-wit?",
+    "question": "Wat is de git command om je files op github te zetten?",
     "answers": [{
-            "answer": "blauw en wit",
+            "answer": "git push",
             "feedback": true
         },
         {
-            "answer": "groen en geel",
+            "answer": "git commit",
             "feedback": false
         },
         {
-            "answer": "rood en wit",
+            "answer": "git clone",
             "feedback": false
         },
         {
-            "answer": "rood en blauw",
+            "answer": "git status",
             "feedback": false
         }
     ],
-    "correct": "Blauw en Wit"
+    "correct": "git push"
 },
 {
-    "question": "Wat is de voornaam van Eddy Merckx?",
+    "question": "Hoe maak je een xml object voor een ajax request?",
     "answers": [{
-            "answer": "Jelle",
+            "answer": "XMLHttpRequest",
             "feedback": false
         },
         {
-            "answer": "Ed",
+            "answer": "new HtppXMLRequest",
             "feedback": false
         },
         {
-            "answer": "Eddy",
+            "answer": "new RequestHttpXML",
+            "feedback": false
+        },
+        {
+            "answer": "new XMLHttpRequest",
             "feedback": true
-        },
-        {
-            "answer": "Gerrit",
-            "feedback": false
         }
     ],
-    "correct": "Eddy"
+    "correct": "new XMLHttpRequest"
 }
 ]
